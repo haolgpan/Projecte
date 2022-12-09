@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rating_graph"
+    app:startDestination="@id/recyclerPersonajesFragment">
+
+    <fragment
+        android:id="@+id/recyclerPersonajesFragment"
+        android:name="com.example.projecte.RecyclerPersonajesFragment"
+        android:label="fragment_recycler_personajes"
+        tools:layout="@layout/fragment_recycler_personajes" />
+    <fragment
+        android:id="@+id/recyclerVotacionFragment"
+        android:name="com.example.projecte.RecyclerVotacionFragment"
+        android:label="RecyclerVotacionFragment"
+        tools:layout="@layout/fragment_recycler_personajes" />
+    <fragment
+        android:id="@+id/recyclerBuscarFragment"
+        android:name="com.example.projecte.RecyclerBusquedaFragment"
+        android:label="RecyclerBuscarFragment"
+        tools:layout="@layout/fragment_recycler_personajes" />
+
+    <action
+        android:id="@+id/action_mostrarPersonajeFragment"
+        app:destination="@id/mostrarPersonajeFragment" />
+    <action
+        android:id="@+id/action_nuevoPersonajeFragment"
+        app:destination="@id/nuevoPersonajeFragment" />
+
+    <fragment
+        android:id="@+id/nuevoPersonajeFragment"
+        android:name="com.example.projecte.NuevoPersonajeFragment"
+        android:label="fragment_nuevo_personaje"
+        tools:layout="@layout/fragment_nuevo_personaje" />
+    <fragment
+        android:id="@+id/mostrarPersonajeFragment"
+        android:name="com.example.projecte.MostrarPersonajeFragment"
+        android:label="fragment_mostrar_personaje"
+        tools:layout="@layout/fragment_mostrar_personaje" />
+</navigation>
