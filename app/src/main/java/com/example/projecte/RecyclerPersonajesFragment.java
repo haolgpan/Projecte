@@ -155,5 +155,6 @@ public class RecyclerPersonajesFragment extends Fragment {
             super(binding.getRoot());
             this.binding = binding;
         }
+        //
     }
 }
