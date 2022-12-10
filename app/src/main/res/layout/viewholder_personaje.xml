@@ -23,5 +23,8 @@
         android:id="@+id/votacion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:numStars="5"/>
+        android:numStars="5"
+        android:progressTint="#C37A0E"
+        android:progressBackgroundTint="#070707"
+        android:secondaryProgressTint="#70490F" />
 </LinearLayout>

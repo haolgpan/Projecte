@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
+    android:backgroundTint="@color/black"
     tools:context=".MostrarPersonajeFragment">
     <ImageView
         android:id="@+id/raza"
@@ -27,5 +28,8 @@
         android:id="@+id/votacion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:numStars="5" />
+        android:numStars="5"
+        android:progressTint="#C37A0E"
+        android:progressBackgroundTint="#070707"
+        android:secondaryProgressTint="#70490F"/>
 </LinearLayout>
