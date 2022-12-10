@@ -10,7 +10,7 @@ public class PersonajeList {
         void cuandoFinalice(List<Personaje> personajes);
     }
 
-    void PersonajesRepositorio(){
+     PersonajeList(){
         personajes.add(new Personaje(R.drawable.ainz,"Ainz Ooal Gown", "Ainz Ooal Gown (アインズ・ウール・ゴウン), formerly known as Momonga (モモンガ), is the main protagonist of the Overlord series. He is the guildmaster of Ainz Ooal Gown, Overlord of the Great Tomb of Nazarick, and the creator of Pandora's Actor."));
         personajes.add(new Personaje(R.drawable.albeldo, "Albeldo", "Albedo (アルベド) is the Overseer of the Guardians of the Great Tomb of Nazarick. She is in charge of the general management and supervision of the activities done by the seven Floor Guardians, meaning that she ranks above the other NPCs in Nazarick."));
         personajes.add(new Personaje(R.drawable.aura,"Aura Bella Fiora","Aura Bella Fiora (アウラ・ベラ・フィオーラ) is a dark elf and one of the twin Floor Guardians on the 6th Floor in the Great Tomb of Nazarick."));

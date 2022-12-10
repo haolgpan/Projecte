@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".MostrarPersonajeFragment">
+    tools:context=".ShowPersFragment">
     <ImageView
         android:id="@+id/raza"
         android:layout_width="241dp"
@@ -15,17 +15,11 @@
         android:id="@+id/nombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="48sp"
-        tools:text="Personaje"/>
+        android:textSize="48sp"/>
     <TextView
         android:id="@+id/descripcion"
-        android:layout_width="382dp"
-        android:layout_height="243dp"
-        android:textSize="24sp"
-        tools:text="Descripción" />
-    <RatingBar
-        android:id="@+id/votacion"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:numStars="5" />
+        android:textSize="24sp"/>
+
 </LinearLayout>

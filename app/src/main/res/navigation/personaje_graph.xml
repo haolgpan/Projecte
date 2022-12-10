@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/personaje_graph"
+    app:startDestination="@id/newPersFragment">
+    <fragment
+        android:id="@+id/newPersFragment"
+        android:name="com.example.projecte.NewPersFragment"
+        android:label="fragment_new_pers"
+        tools:layout="@layout/fragment_new_pers" />
+    <fragment
+        android:id="@+id/showPersFragment"
+        android:name="com.example.projecte.ShowPersFragment"
+        android:label="fragment_show_pers"
+        tools:layout="@layout/fragment_show_pers" />
+    <fragment
+        android:id="@+id/recyclerPersFragment"
+        android:name="com.example.projecte.RecyclerPersFragment"
+        android:label="fragment_recycler_pers"
+        tools:layout="@layout/fragment_recycler_pers" >
+    <action
+        android:id="@+id/action_recyclerPersFragment_to_showPersFragment"
+        app:destination="@id/showPersFragment" />
+    <action
+        android:id="@+id/action_recyclerPersFragment_to_newPersFragment"
+        app:destination="@id/newPersFragment" />
+    </fragment>
+</navigation>
